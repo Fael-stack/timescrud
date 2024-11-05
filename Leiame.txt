@@ -1,0 +1,5 @@
+####DEPENDÊNCIAS##### 
+Bootstrap
+Bootstrap icons
+md5
+

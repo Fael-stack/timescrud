@@ -1,0 +1,40 @@
+.linkMenu{
+    color:#fff;
+    text-decoration: none;
+}
+
+th, td, tr{
+    text-align: center;
+}
+
+@media (max-width: 575px) {
+    .caixa{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 576px) {
+    .caixa{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .caixa{
+       /*Idem min576*/
+    }
+}
+@media (min-width: 992px) {
+    .caixa{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .caixa{
+        /*Idem min992*/
+     }
+}
