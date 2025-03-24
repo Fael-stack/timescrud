@@ -5,14 +5,11 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha ="";
-$db="contador";
+$db="timesDB";
 
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 
-$query="select * from cadastros order by nome";
+$query="select * from cadastros order by time";
 $consultaCadastros= mysqli_query($conexao, $query);
-
-$query="select * from faixas";
-$consultaFaixas= mysqli_query($conexao, $query);
 

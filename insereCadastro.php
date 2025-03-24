@@ -2,11 +2,13 @@
 
 include 'db.php';
 
-$nome = $_POST['nome'];
-$obs = $_POST['obs'];
+$time = $_POST['time'];
+$titulos = $_POST['titulos'];
+$jogadores = $_POST['jogadores'];
 
-$query= "insert into cadastros(nome, obs) 
-values('$nome', '$obs')";
+
+$query= "insert into cadastros(time, titulos, jogadores) 
+values('$time', '$titulos', '$jogadores')";
 
 mysqli_query($conexao, $query);
 
