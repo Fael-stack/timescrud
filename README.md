@@ -30,26 +30,6 @@ Hospedagem: Vercel / Heroku
 
 📱 Interface responsiva e intuitiva
 
-🚀 Como Rodar o Projeto
-
-1️⃣ Clone o Repositório
-
-git clone https://github.com/seu-usuario/projeto-times.git
-
-2️⃣ Instale as Dependências
-
-cd projeto-times
-npm install
-
-3️⃣ Inicie o Servidor
-
-npm start
-
-Acesse em http://localhost:3000/
-
-🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias e novas funcionalidades.
 
 📩 Contato
 
